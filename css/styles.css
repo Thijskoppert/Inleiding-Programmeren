@@ -1,0 +1,291 @@
+body {
+    background-image: url('/images/concretewall.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: hsl(0, 71%, 21%);
+    margin-top: 2em;
+}
+
+.klikvooruitleg{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: hsl(0, 71%, 21%);
+    position: absolute;
+    font-weight: bold;
+    left: 56em;
+    top: 11em;
+}
+
+.genereeritem{
+    position: absolute;
+    left: 10em;
+    top: 48em;
+    background-color: #6C6060;
+    color: white;
+    border-radius: 5px;
+}
+
+.arnoldknop {
+    width: 12em;
+    height: 3em;
+    position: absolute;
+    right: 10em;
+    top: 48em;
+    background-color: #6C6060;
+    color: white;
+    border-radius: 5px;
+}
+
+.naamknop {
+    height: 2.5em;
+    position: absolute;
+    left: 19.5em;
+    top: 14em;
+    background-color: #6C6060;
+    color: white;
+    border-radius: 5px;
+}
+
+.naamknop:hover{
+    background-color: #C6B2B2;
+}
+
+.arnoldknop:hover{
+    background-color: #C6B2B2;
+}
+
+input {
+    height: 2em;
+    position: absolute;
+    left: 8em;
+    top: 14em;
+    border-radius: 5px;
+}
+
+.textbovennaam{
+    position: absolute;
+    left: 8.3em;
+    top: 11.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+
+
+.onderbenen{
+    width: 11em;
+    position: absolute;
+    left: 43.3em;
+    top: 34em;
+}
+
+.knieen{
+    width: 9em;
+    position: absolute;
+    left: 44.3em;
+    top: 31.8em;
+}
+
+.quads{
+    width: 13em;
+    position: absolute;
+    left: 42.3em;
+    top: 25.3em;
+}
+
+.onderabs{
+    width: 6.8em;
+    position: absolute;
+    left: 45.5em;
+    top: 23.7em;
+}
+
+.sideabs{
+    width: 9.2em;
+    position: absolute;
+    left: 44.3em;
+    top: 19.8em;
+}
+
+.abs{
+    width: 6.8em;
+    position: absolute;
+    left: 45.4em;
+    top: 19.6em;
+}
+
+.chest{
+    width: 9.7em;
+    position: absolute;
+    left: 44em;
+    top: 16.2em;
+}
+
+.bovenkantchest{
+    width: 9.7em;
+    position: absolute;
+    left: 44em;
+    top: 14.8em;
+}
+
+.hoofd{
+    width: 8em;
+    position: absolute;
+    left: 44.8em;
+    top: 9.7em;
+}
+
+.schouders{
+    width: 11.7em;
+    position: absolute;
+    left: 43.1em;
+    top: 16.4em; 
+}
+
+.biceps{
+    width: 13em;
+    position: absolute;
+    left: 42.5em;
+    top: 18.7em; 
+}
+
+.traps{
+    width: 7.2em;
+    position: absolute;
+    left: 45.2em;
+    top: 15em;  
+}
+
+.onderarmen{
+    width: 16.5em;
+    position: absolute;
+    left: 40.7em;
+    top: 21.2em;  
+}
+
+.handen{
+    width: 20.5em;
+    position: absolute;
+    left: 39em;
+    top: 24.7em; 
+}
+
+.arnoldbeback{
+    width: 17em;
+    position: absolute;
+    right: 5em;
+    top: 25em;
+}
+
+.onderbenen:hover{
+    background-color: lightgreen;
+}
+
+.quads:hover{
+    background-color: lightgreen;
+}
+
+.onderabs:hover{
+    background-color: lightskyblue;
+}
+
+.sideabs:hover{
+    background-color: lightskyblue;
+}
+
+.abs:hover{
+    background-color: lightskyblue;
+}
+
+.chest:hover{
+    background-color: palevioletred;
+}
+
+.bovenkantchest:hover{
+    background-color: palevioletred;
+}
+
+.biceps:hover{
+    background-color: yellow;
+}
+
+.schouders:hover{
+    background-color: yellow;
+}
+
+.onderarmen:hover{
+    background-color: yellow;
+}
+
+.hidden{
+    display: none;
+}
+
+.grotechest{
+    position: absolute;
+    right: 25em;
+    top: 13em;
+}
+
+.groteschouders{
+    position: absolute;
+    left: 23em;
+    top: 13em; 
+}
+
+.abboez{
+    position: absolute;
+    left: 23em;
+    top: 18em;  
+}
+
+.grotequads{
+    position: absolute;
+    left: 53em;
+    top: 28em; 
+}
+
+.jouwbench{
+    width: 12em;
+    height: 3em;
+    position: absolute;
+    left: 10em;
+    top: 48em;
+    background-color: #6C6060;
+    color: white;
+    border-radius: 5px; 
+}
+
+.jouwbench:hover{
+   background-color: #C6B2B2;; 
+}
+
+.vervanging{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 1.4em;
+    color: white;
+    position: absolute;
+    left: 7.2em;
+    top: 29.5em;
+}
+
+.grotekuiten{
+    position: absolute;
+    left: 26em;
+    top: 33em; 
+}
+
+.zyss{
+    position: absolute;
+    width: 46em;
+    top: 27em;
+    right: 66em;
+ 
+}
