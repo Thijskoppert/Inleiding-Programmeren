@@ -36,6 +36,7 @@ chest.addEventListener('click', function() {
     uitlegabs.classList.add('hidden')
     uitlegquads.classList.add('hidden')
     uitlegkuiten.classList.add('hidden')
+    uitlegbiceps.classList.add('hidden')
 })
 
 var schouders = document.querySelector ('.schouders')
@@ -47,6 +48,7 @@ schouders.addEventListener('click', function (){
     uitlegabs.classList.add('hidden')
     uitlegquads.classList.add('hidden')
     uitlegkuiten.classList.add('hidden')
+    uitlegbiceps.classList.add('hidden')
 })
 
 var abs = document.querySelector ('.abs')
@@ -58,6 +60,7 @@ abs.addEventListener('click', function(){
     uitlegschouders.classList.add('hidden')
     uitlegquads.classList.add('hidden')
     uitlegkuiten.classList.add('hidden')
+    uitlegbiceps.classList.add('hidden')
 })
 
 var quads = document.querySelector ('.quads')
@@ -69,6 +72,7 @@ quads.addEventListener('click', function(){
     uitlegschouders.classList.add('hidden')
     uitlegabs.classList.add('hidden')
     uitlegkuiten.classList.add('hidden')
+    uitlegbiceps.classList.add('hidden')
 })
 
 var kuiten = document.querySelector ('.onderbenen')
@@ -80,9 +84,22 @@ kuiten.addEventListener('click', function(){
     uitlegchest.classList.add('hidden')
     uitlegschouders.classList.add('hidden')
     uitlegabs.classList.add('hidden')
+    uitlegbiceps.classList.add('hidden')
 })
 
-// Array begint altijd bij 0
+var biceps = document.querySelector ('.biceps')
+var uitlegbiceps = document.querySelector ('.grotebiceps')
+
+biceps.addEventListener('click', function(){
+    uitlegbiceps.classList.remove('hidden')
+    uitlegquads.classList.add('hidden')
+    uitlegchest.classList.add('hidden')
+    uitlegschouders.classList.add('hidden')
+    uitlegabs.classList.add('hidden')
+    uitlegkuiten.classList.add('hidden')
+})
+
+// Array begint altijd bij 0, dus 0-1-2-3-4-5 enz.
 var randomgewicht = document.querySelector ('.jouwbench')
 var jouwbenchpress = ["20 :(", "30", "60 :)", "80!", "100 :)!!!"]
 var vervangdeze = document.querySelector ('.vervanging')
